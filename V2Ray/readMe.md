@@ -20,7 +20,7 @@ V2Ray 的核心功能是对流量的加密转发
 
    
 <br/><br/><br/>
-# 客户单配置 V2Ray
+# 客户端配置 V2Ray
 https://github.com/2dust/v2rayN
 
 下载 v2rayN-Core.zip，然后从剪贴板导入服务器配置 V2Ray 完成之后给出的 URL
@@ -28,7 +28,7 @@ https://github.com/2dust/v2rayN
 <br/><br/><br/>
 
 # 可能遇到的问题
-## 服务器和客户端版本某些配置不兼容
+## 服务器和客户端新旧版本某些地方不兼容产生的问题
 https://github.com/v2ray/v2ray-core/issues/2966
 
 比如服务器版本：
