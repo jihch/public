@@ -1,0 +1,14 @@
+
+*.class
+my-kafka-demo/.idea/compiler.xml
+my-kafka-demo/.idea/jarRepositories.xml
+my-kafka-demo/.idea/libraries/Maven__com_alibaba_fastjson_1_2_76.xml
+my-kafka-demo/.idea/libraries/Maven__com_github_luben_zstd_jni_1_4_3_1.xml
+my-kafka-demo/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_4_0.xml
+my-kafka-demo/.idea/libraries/Maven__org_lz4_lz4_java_1_6_0.xml
+my-kafka-demo/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml
+my-kafka-demo/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_3.xml
+my-kafka-demo/.idea/misc.xml
+my-kafka-demo/.idea/modules.xml
+my-kafka-demo/.idea/workspace.xml
+*.iml
