@@ -19,3 +19,8 @@ kafka-spring-boot-demo/mvnw.cmd
 *.jar
 kafka-spring-boot-demo/.mvn/wrapper/maven-wrapper.jar
 kafka-spring-boot-demo/.mvn/wrapper/maven-wrapper.jar
+设计模式/建造者模式/constructor/.idea/codeStyles/codeStyleConfig.xml
+设计模式/建造者模式/constructor/.idea/compiler.xml
+设计模式/建造者模式/constructor/.idea/jarRepositories.xml
+设计模式/建造者模式/constructor/.idea/misc.xml
+设计模式/建造者模式/constructor/.idea/workspace.xml
