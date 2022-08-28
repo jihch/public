@@ -12,3 +12,10 @@ my-kafka-demo/.idea/misc.xml
 my-kafka-demo/.idea/modules.xml
 my-kafka-demo/.idea/workspace.xml
 *.iml
+kafka-spring-boot-demo/.mvn/wrapper/maven-wrapper.jar
+kafka-spring-boot-demo/.mvn/wrapper/maven-wrapper.properties
+kafka-spring-boot-demo/mvnw
+kafka-spring-boot-demo/mvnw.cmd
+*.jar
+kafka-spring-boot-demo/.mvn/wrapper/maven-wrapper.jar
+kafka-spring-boot-demo/.mvn/wrapper/maven-wrapper.jar
