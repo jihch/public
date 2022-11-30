@@ -10,7 +10,7 @@ public class Feiyan {
 
     private static final int SECONDS_BEFORE_ALL_START = 10; //几秒后开始
 
-    private static final int SECONDS_PER_GROUP = 25; //每组持续（单位：秒）
+    private static final int SECONDS_PER_GROUP = 20; //每组持续（单位：秒）
 
     private static final int REST_BETWEEN_GROUP_BASE = 10; //组间间隔（单位：秒），每往后1组可以多歇1秒
 
@@ -53,17 +53,32 @@ public class Feiyan {
 
             int finalJ = j + 1;
             new Thread(() -> {
-                int x = finalJ /10;
 
                 List<String> list = new ArrayList<>();
                 list.add(String.format(pathnameFormat, "第"));
 
-                if (x >= 1) {
-                    list.add(String.format(pathnameFormat, x + ""));
-                    list.add(String.format(pathnameFormat, "10"));
-                } else {
+                if (finalJ <= 10) {
                     list.add(String.format(pathnameFormat, finalJ + ""));
+
+                } else {
+
+                    if (finalJ < 20) {
+
+                        list.add(String.format(pathnameFormat, "10"));
+
+                    } else {
+
+                        list.add(String.format(pathnameFormat, finalJ / 10 + ""));
+                        list.add(String.format(pathnameFormat, "10"));
+
+                    }
+
+                    if (finalJ % 10 != 0) {
+                        list.add(String.format(pathnameFormat, finalJ % 10 + ""));
+                    }
+
                 }
+
                 list.add(String.format(pathnameFormat, "组"));
                 list.add(String.format(pathnameFormat, "结束"));
 
